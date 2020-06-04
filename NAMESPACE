@@ -1,0 +1,4 @@
+useDynLib(pkgUsingTRNG, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+importFrom(rTRNG, TRNG.Version)
